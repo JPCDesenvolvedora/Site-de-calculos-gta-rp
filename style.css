@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    background-color: rgb(77, 190, 255);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: rgb(255, 191, 246);
+}
+
+.area-calculo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.inputs-values {
+    border: solid 2px;
+    border-radius: 8px;
+    border-color: rgb(77, 190, 255);
+    background-color: rgb(152, 217, 255);
+}
+
+.buttonCalcular {
+    border-radius: 4px;
+    border: solid 2px;
+    border-color: rgb(77, 190, 255);
+    background-color: rgb(152, 217, 255);
+    margin-bottom: 8px;
+}
+
+.resultadoCliente {
+    color: white;
+    background-color: rgb(17, 0, 129);
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.resultadoOrg {
+    color: white;
+    background-color: darkgreen;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
